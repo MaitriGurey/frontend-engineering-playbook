@@ -1,36 +1,26 @@
-# 🏗️ Frontend System Design
+# 🚀 Frontend Engineering Playbook
 
-This section of the playbook is dedicated to architectural challenges. It contains a mix of real-world problems I've encountered in interviews and industry-standard patterns for building scalable web applications.
+Welcome to my personal frontend engineering resources. This repository is a collection of architectural patterns, system design deep-dives, and machine coding challenges.
 
-## 🧠 My Design Framework
-
-When tackling these problems, I don't just jump into coding. I follow a structured approach to ensure all Senior-level concerns are met:
-
-1.  **Requirement Clarification:** Defining functional (user-facing) and non-functional (performance, scale) goals.
-2.  **State & Data Modeling:** Deciding between Normalized vs. Nested state and choosing the right sync strategy (SWR/React Query).
-3.  **Component Architecture:** Designing for reusability using patterns like Composition and Higher-Order Components.
-4.  **Performance & Optimization:** Addressing Core Web Vitals, Virtualization, and Code-Splitting.
-5.  **Reliability:** Planning for error boundaries, offline support, and E2E testing.
+The goal of this playbook is to document and to provide a high-quality learning resource for peers.
 
 ---
 
-## 📂 Featured Case Studies
+## 🏗️ What's Inside?
 
-| Problem                                                      | Key Focus Areas                                            | Level  |
-| :----------------------------------------------------------- | :--------------------------------------------------------- | :----- |
-| [**Generic Dashboard Filters**](./generic-dashboard-filters) | Config-driven UI, Cursor Pagination, Jotai vs. React Query | SDE 2  |
-| [**Nested Comment System**](./nested-comments-thread)        | Recursive UI, State Normalization, Tree Traversal          | Senior |
-| _More coming soon..._                                        | _Design Systems, Image Galleries, Real-time Chat..._       | --     |
+### 📐 [System Design](./system-design)
+Focuses on the "Big Picture"—architecting complex frontends that are scalable, maintainable, and entity-agnostic.
 
----
+### 💻 [Machine Coding (Coming Soon)](./machine-coding)
+Practical implementations of complex UI components with a focus on **performance**, **accessibility (A11y)**, and **state management**.
 
-## 🛠️ Global Principles I Follow
-
-- **A11y First:** Every design must be keyboard navigable and screen-reader friendly.
-- **Type Safety:** Using TypeScript to define strict API contracts and component interfaces.
-- **Zero-Duplicate Data:** Prioritizing normalized state to avoid UI inconsistencies.
-- **Lighthouse 90+:** Ensuring architectural choices (like SSR vs. CSR) favor performance metrics.
+### ⚡ More to come soon
 
 ---
 
-_This playbook is updated every time I encounter a new architectural challenge or learn a better way to solve an old one._
+## 📈 Contribution Graph
+I use this repository to "Learn in Public." I aim for consistent, atomic updates that reflect my daily explorations into frontend architecture. 
+
+---
+**Let's Connect!**
+[LinkedIn](https://www.linkedin.com/in/maitrigurey) | [GitHub](https://github.com/MaitriGurey) | NIT Jamshedpur Alumnus
